@@ -4,7 +4,7 @@
 
 ## Demo
 
-<video src="assets/demo.mp4" controls width="100%"></video>
+[![Orca Demo](https://img.youtube.com/vi/8fpetGMA1Vw/maxresdefault.jpg)](https://youtu.be/8fpetGMA1Vw)
 
 ```
 ╔══════════════════════════════════════╗
