@@ -1,0 +1,43 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orca-agent"
+version = "0.1.0"
+description = "A local, offline-first agentic CLI for your codebase — powered by Ollama"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.10"
+keywords = ["ollama", "llm", "agent", "cli", "code", "local-ai"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+dependencies = [
+    "httpx>=0.27.0",
+    "ddgs>=0.1.0",
+    "trafilatura>=1.12.0",
+    "markdownify>=0.13.0",
+    "python-dotenv>=1.0.0",
+]
+
+[project.scripts]
+orca = "main:main"
+
+[project.urls]
+Homepage = "https://github.com/yourusername/orca-agent"
+Issues = "https://github.com/yourusername/orca-agent/issues"
+
+[tool.setuptools]
+# Top-level modules (flat layout)
+py-modules = ["agent", "config", "main", "ollama_client", "spinner"]
+# Sub-packages
+packages = ["tools"]
