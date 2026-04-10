@@ -2,6 +2,10 @@
 
 > **Orca** (**O**llama **R**easoning **C**ode **A**gent) is a local, offline-first CLI that talks to your codebase through natural language. It runs entirely on your machine using [Ollama](https://ollama.com/) — no cloud, no API keys, no data leaving your network.
 
+## Demo
+
+<video src="assets/Screen Recording 2026-04-10 at 4.49.52 PM.mp4" controls width="100%"></video>
+
 ```
 ╔══════════════════════════════════════╗
 ║      Orca  [multi-agent mode]         ║
