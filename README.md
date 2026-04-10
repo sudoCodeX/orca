@@ -4,7 +4,7 @@
 
 ## Demo
 
-<video src="assets/Screen Recording 2026-04-10 at 4.49.52 PM.mp4" controls width="100%"></video>
+<video src="assets/demo.mp4" controls width="100%"></video>
 
 ```
 ╔══════════════════════════════════════╗
